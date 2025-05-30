@@ -172,3 +172,23 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# VS Code specific settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Large data files that shouldn't be in version control
+*.csv
+*.parquet
+*.pkl
+*.joblib
+data/
+models/
+embeddings/
